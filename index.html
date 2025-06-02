@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development - Learn Programming</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox" id="theme-toggle">
+            <div class="slider round"></div>
+        </label>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#examples">Examples</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Become a <span class="highlight">Web Developer</span></h1>
+            <p class="hero-subtitle">Learn web development with interactive tutorials, real-world examples, and hands-on projects.</p>
+            <button class="cta-button" aria-label="Start Learning">Start Learning</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/500x300" alt="Coding Illustration" class="floating">
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="section">
+        <h2 class="section-title">Popular Courses</h2>
+        <div class="course-grid">
+            <div class="course-card" data-course="html-course">
+                <i class="fab fa-html5 course-icon"></i>
+                <h3>HTML & CSS</h3>
+                <p>Master the basics of web development.</p>
+                <button class="btn enroll-btn" data-course="html-course" aria-label="Enroll Now">Enroll Now</button>
+            </div>
+            <div class="course-card" data-course="css-course">
+                <i class="fab fa-css3-alt course-icon"></i>
+                <h3>CSS</h3>
+                <p>Learn to style and layout your web pages.</p>
+                <button class="btn enroll-btn" data-course="css-course" aria-label="Enroll Now">Enroll Now</button>
+            </div>
+            <div class="course-card" data-course="js-course">
+                <i class="fab fa-js course-icon"></i>
+                <h3>JavaScript</h3>
+                <p>Learn dynamic web interactions.</p>
+                <button class="btn enroll-btn" data-course="js-course" aria-label="Enroll Now">Enroll Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Content Section -->
+    <section id="course-content" class="section" style="display: none;">
+        <div class="course-details" id="html-course">
+            <h2 class="course-title">HTML & CSS Course</h2>
+            <p>Learn the fundamentals of HTML and CSS to create beautiful and functional web pages.</p>
+            <button class="btn close-btn" aria-label="Close Course">Close</button>
+            <button class="btn start-course-btn" data-course="html" aria-label="https://it127.github.io/HTML-Course-/">Start Course</button>
+        </div>
+        <div class="course-details" id="css-course" style="display: none;">
+            <h2 class="course-title">CSS Course</h2>
+            <p>Master the art of styling and layout with CSS.</p>
+            <button class="btn close-btn" aria-label="Close Course">Close</button>
+            <button class="btn start-course-btn" data-course="css" aria-label="https://it127.github.io/Css-Course-/">Start Course</button>
+        </div>
+        <div class="course-details" id="js-course" style="display: none;">
+            <h2 class="course-title">JavaScript Course</h2>
+            <p>Learn to create dynamic and interactive web applications with JavaScript.</p>
+            <button class="btn close-btn" aria-label="Close Course">Close</button>
+            <button class="btn start-course-btn" data-course="js" aria-label="https://it127.github.io/JavaScript-Course-/">Start Course</button>
+        </div>
+    </section>
+
+    <!-- Examples Section -->
+    <section id="examples" class="section">
+        <h2 class="section-title">Code Examples</h2>
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="html" aria-label="HTML Tab">HTML</button>
+            <button class="tab-btn" data-tab="css" aria-label="CSS Tab">CSS</button>
+            <button class="tab-btn" data-tab="js" aria-label="JavaScript Tab">JavaScript</button>
+        </div>
+        <div class="tab-content">
+            <div class="code-example" id="html-example">
+                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            </div>
+            <div class="code-example" id="css-example" style="display: none;">
+                <pre><code>body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}</code></pre>
+            </div>
+            <div class="code-example" id="js-example" style="display: none;">
+                <pre><code>function greet() {
+    console.log("Hello, Developer!");
+}
+
+greet();</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Get in Touch</h2>
+        <form class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your Name" required aria-label="Your Name">
+            <input type="email" placeholder="Your Email" required aria-label="Your Email">
+            <textarea placeholder="Your Message" required aria-label="Your Message"></textarea>
+            <button type="submit" class="btn" aria-label="Send Message">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 CodeMaster. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/it127" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
