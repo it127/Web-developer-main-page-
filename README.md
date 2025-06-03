@@ -46,10 +46,8 @@ This repository is a **work in progress**, and I’ll be adding more courses soo
 
 ## **🚀 How to Use This Repository**  
 
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-   ```
+1. **Link of this project**
+   https://it127.github.io/Web-developer-main-page-/
 
 2. **Navigate to the Course Folder**  
    Each course has its own folder with structured lessons and examples.  
