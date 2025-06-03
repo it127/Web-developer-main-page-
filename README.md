@@ -98,22 +98,6 @@ This repository is a **work in progress**, and I’ll be adding more courses soo
 
 ---
 
-## **👨‍💻 How to Contribute**  
-
-I welcome contributions to make this repository better! Here’s how you can help:  
-- **Report Issues**: Found a bug or typo? Open an issue.  
-- **Add Content**: Want to add a new lesson or improve existing ones? Submit a pull request.  
-- **Share Feedback**: Have suggestions? Let me know!  
-
-**Steps to Contribute**:  
-1. Fork the repository.  
-2. Create a new branch: `git checkout -b feature/new-lesson`.  
-3. Make your changes and commit them: `git commit -m "Added new lesson on CSS Grid"`.  
-4. Push to the branch: `git push origin feature/new-lesson`.  
-5. Open a pull request.  
-
----
-
 ## **📜 License**  
 This project is licensed under the **MIT License**. Feel free to use, modify, and distribute the code as you like.  
 
