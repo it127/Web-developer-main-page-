@@ -46,7 +46,7 @@ This repository is a **work in progress**, and I’ll be adding more courses soo
 
 ## **🚀 How to Use This Repository**  
 
-1. **Link of this project**
+1. **Link of this project:**
    https://it127.github.io/Web-developer-main-page-/
 
 2. **Navigate to the Course Folder**  
