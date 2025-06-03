@@ -56,8 +56,7 @@ This repository is a **work in progress**, and I’ll be adding more courses soo
    - Start with `HTML` → `CSS` → `JavaScript`.  
    - Each lesson includes:  
      - **Code examples**  
-     - **Exercises**  
-     - **Quizzes**  
+     - **Exercises**
 
 4. **Practice**  
    - Try the exercises included in each lesson.  
